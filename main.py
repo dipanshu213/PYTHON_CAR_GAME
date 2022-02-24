@@ -34,7 +34,7 @@ def instructionIMG(x,y):
                 run = False
 
 def aboutIMG(x,y):
-    aboutimg = pygame.image.load("IMG_20220224_162146.png")
+    aboutimg = pygame.image.load("about.png")
     run = True
     while run:
         screen.blit(aboutimg,(x,y))
@@ -117,7 +117,7 @@ def introscreen():
   ###### Countdown ######
 def countdown():
     font2 = pygame.font.Font('freesansbold.ttf', 85)
-    countdownBacground = pygame.image.load('bg 2.png')
+    countdownBacground = pygame.image.load('bg.png')
     three = font2.render('3',True, (187,30,16))
     two =   font2.render('2',True, (255,255,0))
     one =   font2.render('1',True, (51,165,50))
@@ -222,7 +222,7 @@ def gameloop():
         
     
     #setting background image
-    bg = pygame.image.load('bg 2.png')
+    bg = pygame.image.load('bg.png')
     
     
     # setting our player
